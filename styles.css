@@ -1,0 +1,24 @@
+body {
+  background-color: black; /* Couleur de fond noire */
+  display: flex; /* Utilisation de Flexbox pour le centrage */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  height: 100vh; /* Hauteur de l'élément body à 100% de la hauteur de la fenêtre */
+  margin: 0; /* Supprime la marge par défaut du body */
+}
+
+h1 {
+  color: white; /* Couleur du texte en blanc */
+  text-shadow:0px 0px 10px cyan, /* Ombre de texte pour l'effet lumineux */
+              0px 0px 20px cyan,
+              0px 0px 40px cyan,
+              0px 0px 80px cyan;
+  text-align: center; /* Centre le texte horizontalement */
+}
+
+.Cyberpunk {
+  font-family: "Orbitron", sans-serif; /* Police Orbitron pour le style futuriste */
+  font-optical-sizing: auto; /* Ajustement optique de la taille de la police */
+  font-weight: 700; /* Rend le texte en gras */
+  font-style: normal; /* Style de police normal */
+}
